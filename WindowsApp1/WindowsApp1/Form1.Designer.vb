@@ -80,7 +80,7 @@ Partial Class Form1
         Me.btok.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btok.ForeColor = System.Drawing.Color.DarkBlue
         Me.btok.Location = New System.Drawing.Point(362, 599)
-        Me.btok.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btok.Margin = New System.Windows.Forms.Padding(4)
         Me.btok.Name = "btok"
         Me.btok.Size = New System.Drawing.Size(135, 66)
         Me.btok.TabIndex = 5
@@ -94,7 +94,7 @@ Partial Class Form1
         Me.btclear.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btclear.ForeColor = System.Drawing.Color.Black
         Me.btclear.Location = New System.Drawing.Point(570, 599)
-        Me.btclear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btclear.Margin = New System.Windows.Forms.Padding(4)
         Me.btclear.Name = "btclear"
         Me.btclear.Size = New System.Drawing.Size(127, 66)
         Me.btclear.TabIndex = 6
@@ -108,7 +108,7 @@ Partial Class Form1
         Me.btexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btexit.ForeColor = System.Drawing.Color.Red
         Me.btexit.Location = New System.Drawing.Point(769, 599)
-        Me.btexit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btexit.Margin = New System.Windows.Forms.Padding(4)
         Me.btexit.Name = "btexit"
         Me.btexit.Size = New System.Drawing.Size(196, 66)
         Me.btexit.TabIndex = 7
@@ -150,7 +150,7 @@ Partial Class Form1
         '
         Me.tbname.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.tbname.Location = New System.Drawing.Point(250, 139)
-        Me.tbname.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbname.Margin = New System.Windows.Forms.Padding(4)
         Me.tbname.Multiline = True
         Me.tbname.Name = "tbname"
         Me.tbname.Size = New System.Drawing.Size(332, 36)
@@ -165,9 +165,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Rb11)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(27, 190)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(670, 186)
         Me.GroupBox1.TabIndex = 11
         Me.GroupBox1.TabStop = False
@@ -178,7 +178,7 @@ Partial Class Form1
         '
         Me.Rb14.AutoSize = True
         Me.Rb14.Location = New System.Drawing.Point(27, 131)
-        Me.Rb14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb14.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb14.Name = "Rb14"
         Me.Rb14.Size = New System.Drawing.Size(459, 29)
         Me.Rb14.TabIndex = 3
@@ -191,7 +191,7 @@ Partial Class Form1
         '
         Me.Rb13.AutoSize = True
         Me.Rb13.Location = New System.Drawing.Point(27, 103)
-        Me.Rb13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb13.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb13.Name = "Rb13"
         Me.Rb13.Size = New System.Drawing.Size(298, 29)
         Me.Rb13.TabIndex = 2
@@ -204,7 +204,7 @@ Partial Class Form1
         '
         Me.Rb12.AutoSize = True
         Me.Rb12.Location = New System.Drawing.Point(27, 75)
-        Me.Rb12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb12.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb12.Name = "Rb12"
         Me.Rb12.Size = New System.Drawing.Size(247, 29)
         Me.Rb12.TabIndex = 1
@@ -217,7 +217,7 @@ Partial Class Form1
         '
         Me.Rb11.AutoSize = True
         Me.Rb11.Location = New System.Drawing.Point(27, 44)
-        Me.Rb11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb11.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb11.Name = "Rb11"
         Me.Rb11.Size = New System.Drawing.Size(225, 29)
         Me.Rb11.TabIndex = 0
@@ -234,9 +234,9 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Rb21)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(722, 190)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(433, 169)
         Me.GroupBox2.TabIndex = 13
         Me.GroupBox2.TabStop = False
@@ -248,7 +248,7 @@ Partial Class Form1
         Me.Rb24.AutoSize = True
         Me.Rb24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Rb24.Location = New System.Drawing.Point(32, 117)
-        Me.Rb24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb24.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb24.Name = "Rb24"
         Me.Rb24.Size = New System.Drawing.Size(263, 29)
         Me.Rb24.TabIndex = 3
@@ -262,7 +262,7 @@ Partial Class Form1
         Me.Rb23.AutoSize = True
         Me.Rb23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Rb23.Location = New System.Drawing.Point(32, 89)
-        Me.Rb23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb23.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb23.Name = "Rb23"
         Me.Rb23.Size = New System.Drawing.Size(263, 29)
         Me.Rb23.TabIndex = 2
@@ -276,7 +276,7 @@ Partial Class Form1
         Me.Rb22.AutoSize = True
         Me.Rb22.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Rb22.Location = New System.Drawing.Point(32, 66)
-        Me.Rb22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb22.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb22.Name = "Rb22"
         Me.Rb22.Size = New System.Drawing.Size(234, 29)
         Me.Rb22.TabIndex = 1
@@ -290,7 +290,7 @@ Partial Class Form1
         Me.Rb21.AutoSize = True
         Me.Rb21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Rb21.Location = New System.Drawing.Point(32, 38)
-        Me.Rb21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb21.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb21.Name = "Rb21"
         Me.Rb21.Size = New System.Drawing.Size(259, 29)
         Me.Rb21.TabIndex = 0
@@ -303,7 +303,7 @@ Partial Class Form1
         '
         Me.Rb41.AutoSize = True
         Me.Rb41.Location = New System.Drawing.Point(36, 31)
-        Me.Rb41.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb41.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb41.Name = "Rb41"
         Me.Rb41.Size = New System.Drawing.Size(154, 29)
         Me.Rb41.TabIndex = 0
@@ -316,7 +316,7 @@ Partial Class Form1
         '
         Me.Rb42.AutoSize = True
         Me.Rb42.Location = New System.Drawing.Point(36, 68)
-        Me.Rb42.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb42.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb42.Name = "Rb42"
         Me.Rb42.Size = New System.Drawing.Size(151, 29)
         Me.Rb42.TabIndex = 1
@@ -329,7 +329,7 @@ Partial Class Form1
         '
         Me.Rb43.AutoSize = True
         Me.Rb43.Location = New System.Drawing.Point(36, 103)
-        Me.Rb43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb43.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb43.Name = "Rb43"
         Me.Rb43.Size = New System.Drawing.Size(98, 29)
         Me.Rb43.TabIndex = 2
@@ -342,7 +342,7 @@ Partial Class Form1
         '
         Me.Rb44.AutoSize = True
         Me.Rb44.Location = New System.Drawing.Point(36, 140)
-        Me.Rb44.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb44.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb44.Name = "Rb44"
         Me.Rb44.Size = New System.Drawing.Size(207, 29)
         Me.Rb44.TabIndex = 3
@@ -359,9 +359,9 @@ Partial Class Form1
         Me.GroupBox4.Controls.Add(Me.Rb41)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(722, 371)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Size = New System.Drawing.Size(433, 198)
         Me.GroupBox4.TabIndex = 15
         Me.GroupBox4.TabStop = False
@@ -372,7 +372,7 @@ Partial Class Form1
         '
         Me.Rb31.AutoSize = True
         Me.Rb31.Location = New System.Drawing.Point(37, 62)
-        Me.Rb31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb31.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb31.Name = "Rb31"
         Me.Rb31.Size = New System.Drawing.Size(146, 29)
         Me.Rb31.TabIndex = 0
@@ -385,7 +385,7 @@ Partial Class Form1
         '
         Me.Rb32.AutoSize = True
         Me.Rb32.Location = New System.Drawing.Point(38, 90)
-        Me.Rb32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb32.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb32.Name = "Rb32"
         Me.Rb32.Size = New System.Drawing.Size(169, 29)
         Me.Rb32.TabIndex = 1
@@ -398,7 +398,7 @@ Partial Class Form1
         '
         Me.Rb33.AutoSize = True
         Me.Rb33.Location = New System.Drawing.Point(37, 117)
-        Me.Rb33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb33.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb33.Name = "Rb33"
         Me.Rb33.Size = New System.Drawing.Size(158, 29)
         Me.Rb33.TabIndex = 2
@@ -411,7 +411,7 @@ Partial Class Form1
         '
         Me.Rb34.AutoSize = True
         Me.Rb34.Location = New System.Drawing.Point(37, 145)
-        Me.Rb34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Rb34.Margin = New System.Windows.Forms.Padding(4)
         Me.Rb34.Name = "Rb34"
         Me.Rb34.Size = New System.Drawing.Size(228, 29)
         Me.Rb34.TabIndex = 3
@@ -428,9 +428,9 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.Rb31)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(27, 384)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Size = New System.Drawing.Size(670, 207)
         Me.GroupBox3.TabIndex = 14
         Me.GroupBox3.TabStop = False
@@ -462,7 +462,7 @@ Partial Class Form1
         Me.bttimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.bttimer.ForeColor = System.Drawing.Color.Black
         Me.bttimer.Location = New System.Drawing.Point(976, 134)
-        Me.bttimer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bttimer.Margin = New System.Windows.Forms.Padding(4)
         Me.bttimer.Name = "bttimer"
         Me.bttimer.Size = New System.Drawing.Size(100, 41)
         Me.bttimer.TabIndex = 17
@@ -474,7 +474,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.GreenYellow
         Me.ClientSize = New System.Drawing.Size(1195, 678)
         Me.ControlBox = False
         Me.Controls.Add(Me.bttimer)
@@ -490,9 +490,9 @@ Partial Class Form1
         Me.Controls.Add(Me.btclear)
         Me.Controls.Add(Me.btok)
         Me.Controls.Add(Me.lb1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "ข้อสอบปลายภาค"
         Me.UseWaitCursor = True
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
